@@ -1,0 +1,1099 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond&family=Edu+SA+Beginner:wght@600&display=swap");
+
+body {
+  background-image: url(Images/moon.png);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#dates {
+  width: 23vw;
+  height: 5vh;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 10vh;
+  font-size: 1.3rem;
+
+}
+
+.bc1 {
+  position: static;
+  top: 0;
+  bottom: 0;
+  background-image: url(images/beauty.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bc2 {
+  position: static;
+  top: 0;
+  bottom: 0;
+  background-image: url(Images/itachi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.songItem h5 {
+  color: white;
+  font-family: 'EB Garamond', serif;
+}
+
+.navba,
+.clock,
+.toglbtn,
+.search {
+  position: fixed;
+}
+
+.navba {
+  margin-left: 121px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mainbar {
+  top: 0;
+  position: sticky;
+  display: flex;
+}
+
+.bar-11 {
+  width: 20%;
+  /* background-image: url(/Images/side.gif); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+
+.line {
+  display: inline;
+}
+
+.bkm {
+  display: flex;
+  justify-content: center;
+  height: 4vw;
+}
+
+.blist {
+  /* margin-top: 2rem; */
+  /* display: flex; */
+}
+
+.blist li {
+  display: flex;
+}
+
+.bar-11 h2,
+.bar-11 li,
+.bar-11 button {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.bar-11 h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bar-11 ul li {
+  /* margin-top: 2rem; */
+  color: white;
+  font-weight: bold;
+}
+
+.bar-11 input {
+  color: white;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.bar-2 {
+  width: 60%;
+  /* background-image: url(/Images/itachi.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 150vh; */
+  right: 20px;
+}
+
+.bar-3 {
+  width: 20%;
+  /* background-color: yellow; */
+}
+
+/* .bar {
+  display: flex;
+  justify-content: center;
+} */
+
+.clock {
+  width: 22vw;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  margin-top: 2rem;
+  background-image: url(Images/itachi.jpg);
+  background-size: cover;
+  height: 18vh;
+  align-items: center;
+  color: #f10d0d;
+  font-weight: bolder;
+  font-family: 'EB Garamond', cursive;
+  top: -35px;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  /* background-image: url(/Images/2.png); */
+  width: 98px;
+  height: 66px;
+  border-radius: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  /* background-image: url(/Images/moon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 5rem; */
+  /* height: 10rem; */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link i {
+  color: red;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 31px;
+  font-weight: inherit;
+}
+
+.navbar span {
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(244, 12, 12, 0.53);
+  /* line-height: 30px; */
+  background-color: #ffffff5a;
+  display: flex;
+  justify-content: center;
+}
+
+.nav2:hover {
+  background-color: #ffffff70;
+}
+
+.toglbtn {
+  display: flex;
+  justify-content: end;
+  margin-left: -2rem;
+}
+
+.btn img {
+  float: right;
+  margin-right: -20rem;
+  margin-top: 1.5rem;
+  width: 39px;
+  cursor: pointer;
+}
+
+.btn img:hover {
+  animation: sharingan 3s;
+
+}
+
+.btn {
+  height: 0px;
+  width: 0px;
+  background: none;
+}
+
+.search img {
+  margin-top: 0px;
+  margin-left: 3px;
+  height: 42px;
+  position: absolute;
+  /* animation: sharingan 3s  delay iteration-count direction fill-mode; */
+}
+
+.playSaringan img {
+  animation: sharingan linear 0.8s infinite;
+  cursor: pointer;
+}
+
+.search img:hover {
+  animation: sharingan linear 0.8s infinite;
+  cursor: pointer;
+}
+
+.search button {
+  height: 0px;
+  width: 0;
+  background: none;
+  position: absolute;
+  margin-left: 154px;
+  margin-top: 0px;
+}
+
+.search input {
+  color: #f10d0d;
+  height: 41px;
+  width: 9.9rem;
+  border-radius: 8px;
+  background-image: url(images/moon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* top: 20px; */
+  position: absolute;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  font-size: 21px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 25px;
+  margin-left: 2rem;
+}
+
+@keyframes sharingan {
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+.bar-2 img {
+  width: 59px;
+  /* filter: invert(1); */
+  margin-top: 195px;
+  margin-right: 99px;
+  float: right;
+}
+
+/* Spotify  */
+.container {
+  margin-top: 5rem;
+  min-height: 72vh;
+  /* background-color: black; */
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  /* background-image: url('bg.jpg');  */
+}
+
+.icons {
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 74px;
+}
+
+/* .songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+width: 805;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+} */
+
+.songItem img {
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+
+.timestamp {
+  margin: 0 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Varela Round", sans-serif;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+*/ .container {
+  background-color: #f10d0d;
+  /* width: 100%; */
+  /* height: 20vh; */
+  /* margin-top: 10vh; */
+  min-height: 70vh;
+}
+
+
+.icons {}
+
+.icons i {
+  cursor: pointer;
+  margin: 12px;
+
+
+}
+
+.container {}
+
+#progressbar {
+  width: 68.5vw;
+  cursor: pointer;
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 130px;
+  /* background-color: black; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.songList {
+  display: flex;
+}
+
+
+
+/* Google Font 'Poppins'  */
+
+
+.song_side {
+  width: 75%;
+  display: none;
+  background: #0b1320;
+}
+
+.master_play {
+  width: 100%;
+  height: 10%;
+  background-image: url(Images/moon.png);
+  background-size: cover;
+  box-shadow: 0px 3px 8px #090f1f;
+}
+
+.menu_side h1 {
+  font-size: 20px;
+  margin: 15px 0px 0px 20px;
+  font-weight: 500;
+}
+
+.menu_side .playlist {
+  margin: 40px 0px 0px 20px;
+}
+
+.menu_side .playlist h4 {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: #4c5262;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: .3s linear;
+}
+
+.menu_side .playlist h4:hover {
+  color: #fff;
+}
+
+.menu_side .playlist h4 span {
+  position: relative;
+  margin-right: 35px;
+}
+
+.menu_side .playlist h4 span::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border: 2px solid #4c5262;
+  border-radius: 50%;
+  top: -4px;
+  transition: .3s linear;
+}
+
+.menu_side .playlist h4:hover span::before {
+  border: 2px solid #fff;
+}
+
+.menu_side .playlist h4 .bi {
+  display: none;
+}
+
+.menu_side .playlist .active {
+  color: #36e2ec;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Caveat', cursive;
+}
+
+.menu_side .playlist .active span {
+  display: none;
+}
+
+.menu_side .playlist .active .bi {
+  display: flex;
+  margin-right: 20px;
+}
+
+.menu_side {
+  width: 25%;
+  /* height: 211vh; */
+  /* border: 1px solid #fff; */
+  margin-top: -88px;
+}
+
+.menu_side .menu_song li {
+  position: relative;
+  list-style-type: none;
+  padding: 5px 0px 5px 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.menu_side .menu_song li:hover {
+  background: oklch(0.48 0.11 20.37 / 0.49);
+  border-radius: 29px;
+}
+
+.menu_side .menu_song li span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4c5262;
+}
+
+.menu_side .menu_song li img {
+  width: 32px;
+  height: 32px;
+  margin-left: 25px;
+}
+
+.menu_side .menu_song li h5 {
+  font-size: 11px;
+  margin-left: 15px;
+}
+
+.menu_side .menu_song li h5 .subtitle {
+  font-family: 'EB Garamond', serif;
+  color: #36e2ec;
+  font-size: 10px;
+}
+
+.menu_side .menu_song li .bi {
+  position: absolute;
+  right: 15px;
+  top: 6px;
+  font-size: 16px;
+  color: white;
+}
+
+.master_play {
+  width: 99vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  position: sticky;
+  bottom: 0;
+}
+
+.master_play .wave {
+  width: 30px;
+  height: 30px;
+  /* border: 1px solid #fff; */
+  padding-bottom: 5px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.master_play .wave .wave1 {
+  width: 3px;
+  height: 10px;
+  margin-right: 3px;
+  border-radius: 10px 10px 0px 0px;
+  background: #36e2ec;
+  animation: unset;
+}
+
+.master_play .wave .wave1:nth-child(2) {
+  height: 13px;
+  /* animation-delay: .4s; */
+}
+
+.master_play .wave .wave1:nth-child(3) {
+  height: 8px;
+  /* animation-delay: .8s; */
+}
+
+/* javascript class wave  */
+.master_play .active2 .wave1 {
+  animation: wave .5s linear infinite;
+}
+
+.master_play .active2 .wave1:nth-child(2) {
+  animation-delay: .4s;
+}
+
+.master_play .active2 .wave1:nth-child(3) {
+  animation-delay: .8s;
+}
+
+@keyframes wave {
+  0% {
+    height: 10px;
+  }
+
+  50% {
+    height: 15px;
+  }
+
+  100% {
+    height: 10px;
+  }
+}
+
+
+.master_play img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.master_play h5 {
+  width: 130px;
+  font-size: 13px;
+  margin-left: 15px;
+  color: #fff;
+  line-height: 17px;
+}
+
+.master_play h5 .subtitle {
+  font-size: 11px;
+  color: #4c5262;
+}
+
+.master_play .icon {
+  font-size: 42px;
+  color: #ea0101;
+  margin: 0px 20px 0px 40px;
+  outline: none;
+}
+
+.master_play .icon .bi {
+  cursor: pointer;
+  outline: none;
+}
+
+.master_play .icon .bi:nth-child(2) {
+  border: 1px solid rgb(105, 105, 170, .1);
+  border-radius: 50%;
+  padding: 1px 4px 0px 6px;
+  margin: 0px 5px;
+  transition: .3s linear;
+}
+
+.master_play span {
+  color: #fff;
+  width: 32px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.master_play #currentStart {
+  margin: 0px 0px 0px 20px;
+}
+
+.master_play .bar {
+  position: relative;
+  width: 43%;
+  height: 2px;
+  background: rgb(105, 105, 170, .1);
+  margin: 0px 15px 0px 10px;
+}
+
+.master_play .bar .bar2 {
+  position: absolute;
+  background: #36e2ec;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  transition: 1s linear;
+}
+
+.master_play .bar .dot {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #36e2ec;
+  border-radius: 50%;
+  left: 0%;
+  top: -1px;
+  transition: 1s linear;
+}
+
+.master_play .bar .dot::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #36e2ec;
+  border-radius: 50%;
+  left: -6px;
+  top: -6px;
+  box-shadow: inset 0px 0px 3px #36e2ec;
+}
+
+.master_play .bar input {
+  position: absolute;
+  width: 100%;
+  top: -6px;
+  left: 0;
+  cursor: pointer;
+  z-index: 99999999;
+  transition: 3s linear;
+  opacity: 0;
+}
+
+.master_play .vol {
+  position: relative;
+  width: 100px;
+  height: 2px;
+  margin-left: 50px;
+  background: rgb(105, 105, 170, .1);
+}
+
+.master_play .vol .bi {
+  position: absolute;
+  color: #fff;
+  font-size: 29px;
+  top: -14px;
+  left: -30px;
+}
+
+.master_play .vol input {
+  position: absolute;
+  width: 100%;
+  top: -10px;
+  left: 0;
+  cursor: pointer;
+  z-index: 99999999;
+  transition: 3s linear;
+  opacity: 0;
+}
+
+.master_play .vol .vol_bar {
+  position: absolute;
+  background: #36e2ec;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  transition: 1s linear;
+}
+
+.master_play .vol .dot {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #36e2ec;
+  border-radius: 50%;
+  left: 0%;
+  top: -1px;
+  transition: 1s linear;
+}
+
+.master_play .vol .dot::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #36e2ec;
+  border-radius: 50%;
+  left: -6px;
+  top: -6px;
+  box-shadow: inset 0px 0px 3px #36e2ec;
+}
+
+.song_side {
+  z-index: 2;
+}
+
+.song_side::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background: url('bg.png');
+  z-index: -1;
+}
+
+.song_side nav {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  /* border: 1px solid #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.song_side nav ul {
+  display: flex;
+}
+
+.song_side nav ul li {
+  position: relative;
+  list-style-type: none;
+  font-size: 13px;
+  color: #4c5262;
+  margin-right: 25px;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.song_side nav ul li:hover {
+  color: #fff;
+}
+
+.song_side nav ul li:nth-child(1) {
+  color: #fff;
+}
+
+.song_side nav ul li span {
+  position: absolute;
+  width: 100%;
+  height: 2.5px;
+  background: #36e2ec;
+  bottom: -5px;
+  left: 0;
+  border-radius: 20px;
+}
+
+.song_side nav .search {
+  position: relative;
+  width: 40%;
+  padding: 1px 10px;
+  border-radius: 20px;
+  color: gray;
+}
+
+.song_side nav .search::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: rgb(184, 184, 184, .1);
+  backdrop-filter: blur(5px);
+  z-index: -1;
+}
+
+.song_side nav .search .bi {
+  font-size: 13px;
+  padding: 3px 0px 0px 10px;
+}
+
+.song_side nav .search input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.song_side nav .user {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.song_side nav .user img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px #131312;
+}
+
+.song_side .content {
+  width: 90%;
+  height: 30%;
+  margin: auto;
+  /* border: 1px solid #fff; */
+  padding-top: 20px;
+}
+
+.song_side .content h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.song_side .content p {
+  font-size: 11px;
+  font-weight: 400;
+  color: #4c5262;
+  margin: 5px;
+}
+
+.song_side .content .buttons {
+  margin-top: 15px;
+}
+
+.song_side .content .buttons button {
+  width: 130px;
+  height: 30px;
+  border: 2px solid #36e2ec;
+  outline: none;
+  border-radius: 20px;
+  background: #5adae0;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.song_side .content .buttons button:hover {
+  border: 2px solid #36e2ec;
+  background: none;
+  color: #36e2ec;
+}
+
+.song_side .content .buttons button:nth-child(2) {
+  border: 2px solid #36e2ec;
+  background: none;
+  color: #36e2ec;
+}
+
+.song_side .content .buttons button:nth-child(2):hover {
+  border: 2px solid #36e2ec;
+  background: #36e2ec;
+  color: #fff;
+}
+
+.song_side .popular_song {
+  width: 90%;
+  height: auto;
+  /* border: 1px solid #fff; */
+  margin: auto;
+  margin-top: 15px;
+}
+
+.song_side .popular_song .h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.song_side .popular_song .h4 .bi {
+  color: #a4a8b4;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.song_side .popular_song .h4 .bi:hover {
+  color: #fff;
+}
+
+.song_side .popular_song .pop_song {
+  /* width: 100%; */
+  height: 150px;
+  margin-top: 15px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.song_side .popular_song .pop_song::-webkit-scrollbar {
+  display: none;
+}
+
+.song_side .popular_song .pop_song li {
+  min-width: 100px;
+  height: 140px;
+  list-style-type: none;
+  margin-right: 10px;
+  transition: .3s linear;
+}
+
+.song_side .popular_song .pop_song li:hover {
+  background: rgb(105, 105, 170, .1);
+}
+
+.song_side .popular_song .pop_song li .img_play {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.song_side .popular_song .pop_song li .img_play img {
+  /* width: 100%;
+    height: 100%; */
+}
+
+.song_side .popular_song .pop_song li .img_play .bi {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .3s linear;
+  opacity: 0;
+}
+
+.song_side .popular_song .pop_song li .img_play:hover .bi {
+  opacity: 1;
+}
+
+.song_side .popular_song .pop_song li h5 {
+  padding: 5px 0px 0px 5px;
+  line-height: 15px;
+  font-size: 10px;
+}
+
+.song_side .popular_song .pop_song li h5 .subtitle {
+  font-size: 9px;
+  color: #4c5262;
+}
+
+.song_side .popular_artists {
+  /* width: 90%; */
+  height: auto;
+  /* border: 1px solid #fff; */
+  margin: auto;
+  margin-top: 15px;
+}
+
+.song_side .popular_artists .h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.song_side .popular_artists .h4 .bi {
+  color: #a4a8b4;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.song_side .popular_artists .h4 .bi:hover {
+  color: #fff;
+}
+
+.song_side .popular_artists .item {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.song_side .popular_artists .item::-webkit-scrollbar {
+  display: none;
+}
+
+.song_side .popular_artists .item li {
+  list-style-type: none;
+  position: relative;
+  min-width: 60px;
+  height: 60px;
+  /* background-color: #fff; */
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.song_side .popular_artists .item li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.palySaringam img {
+  animation: sharingan linear 0.8s infinite;
+  cursor: pointer;
+}
+
+.img_play img {
+  display: none;
+}
+
+.item img {
+  display: none;
+}
+
+.secnd {
+  width: 21rem;
+  display: flow-root;
+  float: right;
+  margin-right: -71rem;
+  margin-top: -55rem;
+}
+
+.active {
+  font-weight: bold;
+  font-size: 20px;
+}
